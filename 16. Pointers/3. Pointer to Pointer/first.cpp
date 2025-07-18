@@ -19,10 +19,13 @@ int main()
     int **ptr2 = &ptr1; 
 
     cout << "Value of a: " << a << endl; // Value of "a"
+    //
     cout << "Address of a: " << &a << endl; // Address of "a"
     cout << "Value of ptr1: " << ptr1 << endl; // Value of "ptr1" (address of "a")
+    //
     cout << "Address of ptr1: " << &ptr1 << endl; // Address of "ptr1"
     cout << "Value of ptr2: " << ptr2 << endl; // Value of "ptr2" (address of "ptr1")
+    //
     cout << "Address of ptr2: " << &ptr2 << endl; // Address of "ptr2"
     
 
