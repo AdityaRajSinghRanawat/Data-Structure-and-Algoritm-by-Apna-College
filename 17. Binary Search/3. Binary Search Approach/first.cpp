@@ -51,6 +51,30 @@ int main()
         1st half: (st    to   mid-1)
         2nd half: (mid+1 to   end)
     */
+
+    /*
+        Why we take (start <= end):-
+
+        example:-
+        arr = [-1, 0, 3, 4, 5, 9, 12]
+        target = 12
+
+        [-1 | 0 | 3 | 4 | 5 | 9 | 12]
+        . ^           ^            ^
+        . |           |            |
+        . start      mid          end
+
+        [-1 | 0 | 3 | 4 | 5 | 9 | 12]
+        .                 ^   ^    ^
+        .                 |   |    |
+        .             start  mid  end
+
+        [-1 | 0 | 3 | 4 | 5 | 9 | 12]
+        .                         ^
+        .                         |
+        .                   start = end
+
+    */
    
     return 0;
 }
