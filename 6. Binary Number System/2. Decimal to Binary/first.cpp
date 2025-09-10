@@ -5,7 +5,7 @@ using namespace std;
 int decimalToBinary(int decimal){
     int ans = 0, pow = 1, remainder = 0;
 
-    // since we know that we will divide the mumber and add it to ans
+    // since we know that we will divide the number and add it to ans
     // but we need to add it in reverse order, so we will use below format
     // 1110 = [1 X (1000)] + [1 X (100)] + [1 X 10] + [0 X 1]
 
