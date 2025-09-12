@@ -41,6 +41,7 @@ int main()
         }
 
         TIME COMPLEXITY: O(log n)
+        SPACE COMPLEXITY: O(1)
     */
     return 0;
 }
