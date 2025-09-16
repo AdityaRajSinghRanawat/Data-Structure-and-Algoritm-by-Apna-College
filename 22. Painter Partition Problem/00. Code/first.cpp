@@ -3,7 +3,7 @@
 #include <climits>
 using namespace std;
 
-bool isPossible(vector<int> &arr, int n, int m, int maxAllowedTime){
+bool isPossible(vector<int> &arr, int n, int m, int maxAllowedTime){ // O(n)
     int painter = 1, time = 0;
 
     for(int i = 0; i < n; i++){
@@ -19,7 +19,7 @@ bool isPossible(vector<int> &arr, int n, int m, int maxAllowedTime){
     return painter <= m; // true/false 
 }
 
-int minTimeToPaint(vector<int> &arr, int n, int m)
+int minTimeToPaint(vector<int> &arr, int n, int m) // O(log(range) * n)
 {
     int sum = 0, maxVal = INT_MIN;
 
@@ -34,7 +34,7 @@ int minTimeToPaint(vector<int> &arr, int n, int m)
     int st = maxVal, end = sum;
     int ans = -1;
 
-    while (st <= end)
+    while (st <= end) 
     {
         int mid = st + (end - st) / 2;
 
@@ -59,6 +59,6 @@ int main()
     int n = arr.size();
     int m = 2; // painters
 
-    cout << minTimeToPaint(arr, n, m) << endl;
+    cout << minTimeToPaint(arr, n, m) << endl; // O(log(range) * n)
     return 0;
 }
