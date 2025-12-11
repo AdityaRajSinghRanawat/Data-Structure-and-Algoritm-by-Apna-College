@@ -3,6 +3,11 @@ using namespace std;
 
 int main()
 {
+    /*
+        Problem: 443 [leetcode]
+        String Compression
+    */
+
     // Properties:
 
     // (x + y) % m = (x % m) + (y % m)
