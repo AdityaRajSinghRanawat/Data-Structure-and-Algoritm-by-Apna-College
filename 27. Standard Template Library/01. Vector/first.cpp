@@ -158,7 +158,10 @@ int main()
     vector<int> vec7 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     vec7.clear(); // clear the entire vector elements (size) but the capacity remains same
     cout << "After clear(), size: " << vec7.size() << endl;
-    cout << "After clear(), capacity: " << vec7.capacity() << endl;
+    cout << "After clear(), capacity: " << vec7.capacity() << endl << endl;
 
+    // empty()
+    cout << "Is vector 6 is empty: " <<  vec6.empty() << endl; // returns false (0) if vector is not empty
+    cout << "Is vector 7 is empty: " <<  vec7.empty() << endl; // returns true  (1) if vector is empty
     return 0;
 }
