@@ -71,10 +71,24 @@ int main()
         List:
         - implemented as doubly linked list
         - therefore the front and back operations are available
-        - elements are not stored in contiguous memory locations
+        - elements are not stored in contiguous memory locations but in sequential containers
         - does not allow random access using index (no indexing)
         - Insertion and deletion at both the beginning and end is efficient
         - Insertion and deletion in the middle is also efficient (no shifting of elements)
+    */
+
+    /*
+        Sequential container: 
+        This term means that the elements are stored in a linear order, 
+        and you must traverse them in sequence to access a specific item. 
+        You cannot jump directly to the n'th element using an index (like myList[2]) 
+        in constant time, as you can with a vector or an array.
+        
+        Non-contiguous memory: 
+        The individual elements (nodes) of the list are scattered throughout the memory. 
+        The order is maintained by each node holding pointers to the next 
+        (and previous, in the case of std::list) elements in the sequence, 
+        forming a doubly linked list structure. 
     */
     return 0;
 }
