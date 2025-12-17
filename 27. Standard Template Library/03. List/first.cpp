@@ -87,7 +87,7 @@ int main()
         Non-contiguous memory: 
         The individual elements (nodes) of the list are scattered throughout the memory. 
         The order is maintained by each node holding pointers to the next 
-        (and previous, in the case of std::list) elements in the sequence, 
+        (and previous, in the case of list) elements in the sequence, 
         forming a doubly linked list structure. 
     */
     return 0;
