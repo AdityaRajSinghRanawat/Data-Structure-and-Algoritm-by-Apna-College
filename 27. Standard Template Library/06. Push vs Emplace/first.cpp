@@ -13,13 +13,19 @@ int main()
     vec.push_back({1, 2}); // just insert the object
     
     // more efficient and no curly braces needed
-    vec.emplace_back(1, 2); // creates the in-place objects
+    vec.emplace_back(5, 8); // creates the in-place objects
     
     // Conclusion:
     /*
         i.e. if we have object which are already created then use push_back
         when you want that objects are created in palace then use emplace_back
     */
+
+    cout << "Vector elements are: ";
+    for(auto value: vec){
+        cout << "{" <<  value.first << "," << value.second << "}" << " ";
+    }
+    cout << endl;
 
     return 0;
 }
