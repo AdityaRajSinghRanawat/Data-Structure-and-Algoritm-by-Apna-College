@@ -29,10 +29,12 @@ int main()
         List:
         - Doubly linked list (No random access)
         e.g. l[2] = not possible
+        - useful in frequent insertion and deletion of elements
         
         Deque:
         - Dynamic arrays (so random access is possible)
         e.g. d[2] = possible
+        - useful in frequent insertion and deletion at both ends
     */
     return 0;
 }
