@@ -25,10 +25,12 @@ int main()
     cout << "Front element after pop: " << q.front() << endl;
 
     // empty
-    while(q.empty()){
+    cout << "Queue elements: ";
+    while(!q.empty()){
         cout << q.front() << " ";
         q.pop();
     }
+    cout << endl;
 
     // size
     cout << "Size: " << q.size() << endl; 
