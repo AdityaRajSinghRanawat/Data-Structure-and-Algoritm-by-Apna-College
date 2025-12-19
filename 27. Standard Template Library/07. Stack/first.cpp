@@ -45,7 +45,7 @@ int main()
     s1.push(40);
 
     // size
-    cout << "\nSize of s1 before swap: " << s1.size() << endl; // 4
+    cout << "Size of s1 before swap: " << s1.size() << endl; // 4
     cout << "Size of s2 before swap: " << s2.size() << endl; // 0
 
     s2.swap(s1);
