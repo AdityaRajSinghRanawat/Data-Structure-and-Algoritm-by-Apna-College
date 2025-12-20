@@ -52,6 +52,9 @@ int main()
     cout << "Size of s1 after swap: " << s1.size() << endl; // 0
     cout << "Size of s2 after swap: " << s2.size() << endl; // 4
     
+    // Time Complexity:
+    // push() and pop() -> O(1)
+    // top()            -> O(1)
     
     return 0;
 }
