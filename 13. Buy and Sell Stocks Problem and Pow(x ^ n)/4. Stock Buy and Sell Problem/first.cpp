@@ -14,7 +14,7 @@ int main()
 
         e.g.
         [7, 1, 5, 3, 6, 4]
-        let 6 be the selling dad, previous mimimum [7,1,5,3] = 1 
+        let 6 be the selling day, previous mimimum [7,1,5,3] = 1 
         therefore profit = 6 - 1 = 5
     */
 
