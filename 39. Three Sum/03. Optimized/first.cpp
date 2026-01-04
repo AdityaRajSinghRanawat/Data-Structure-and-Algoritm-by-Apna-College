@@ -15,7 +15,7 @@ int main()
         vector<vector<int>> threeSum(vector<int> &nums)
         {
 
-            // Time Complexity:  O(n^2 * log(uniqueTriplets))
+            // Time Complexity:  O(n^2 * nlog(n))
             // Space Complexity: O(uniqueTriplets)
 
             int n = nums.size();
