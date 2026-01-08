@@ -65,21 +65,20 @@ int main()
     /*
         Time Complexity:
 
-        Total calls = total subsets = 2
+        Total calls = total subsets (base) * each branch traversal
 
-        TC = Total calls * Work done in each call
-        TC = ((2)^n - 1) * k
-        TC = ((2)^n - 1)
-        TC = O((2)^n)
+        by set theory:
+        Total Subsets = 2^n
+
+        and we know to reach the last index we traverse n times through specific branch
+        Total Calls = 2^n * n
+
+        Time Complexity = Total Calls * work done in each call
+        TC = (2^n * n) * work done in each call
+        TC = (2^n * n) * O(1)
+        TC = (2^n * n)
     */
-
-    /*
-        Space Complexity:
-
-        SC = Depth of Recursion Tree * Memory in each call
-        SC = n * k
-        SC = O(n)
-    */
+   
     vector<int> arr = {1, 2, 3};
     vector<int> ans; // store subsets    
 
