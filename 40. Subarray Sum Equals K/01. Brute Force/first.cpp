@@ -22,7 +22,7 @@ int main()
                 . i ------>j
                 . i --------------->j
 
-                we do not need to calculate the sum again and again.
+                we do not need to calculate the sum again and again,
                 we can use the old results to get new value.
 
                 9 + 4 + 20 + 3 = 36 // wrong (takes time for calculation)
