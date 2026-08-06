@@ -46,6 +46,7 @@ int main()
             unordered_map<Node *, Node *> m;
             m[head] = copyHeadNode;
 
+            // O(n)
             while (oldTemp != NULL)
             {
                 // make a new node for copy
@@ -62,6 +63,7 @@ int main()
             oldTemp = head;
             newTemp = copyHeadNode;
 
+            // O(n)
             while (oldTemp != NULL)
             {
                 newTemp->random = m[oldTemp->random];
