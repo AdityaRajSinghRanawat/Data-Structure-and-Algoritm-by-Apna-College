@@ -13,7 +13,9 @@ int main()
     public:
         bool isValid(string s)
         {
+            // SC: O(n)
             stack<char> st;
+            // TC: O(n)
             for (int i = 0; i < s.length(); i++)
             {
                 if (s[i] == '(' || s[i] == '[' || s[i] == '{')
